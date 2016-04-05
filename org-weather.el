@@ -45,9 +45,9 @@
 (defvar org-weather-api-key  "")
 
 ;; The api url, no need to change ususally
-(defvar org-weather-api-url "http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&mode=json&units=metric&cnt=7&APPID=%s")
+(defvar org-weather-api-url "http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&mode=json&units=imperial&cnt=7&APPID=%s")
 
-(defvar org-weather-api-timeout 2)
+(defvar org-weather-api-timeout 10)
 
 ;; The units, just for displaying
 (defvar org-weather-temperature-unit "°C")
